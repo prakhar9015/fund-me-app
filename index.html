@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fund Me App</title>
+    </head>
+    <body>
+        <h1>Fund Me App</h1>
+        <!-- what's script src = "text/javascript  or module"   , now because it a module, then i can;t use 
+			onclick="fund()" or any function here, i 've to use it in js file itself'
+		-->
+        <script src="./index.js" type="module"></script>
+        <button id="connectButton">Connect</button>
+
+        <button id="balanceButton">getBalance</button>
+        <button id="withdrawButton">withdraw</button>
+
+        <!-- Form -->
+        <label for="fund">ETH Amount</label>
+        <input id="ethAmount" placeholder="0.1" />
+        <button id="fundButton">Funds</button>
+    </body>
+</html>
