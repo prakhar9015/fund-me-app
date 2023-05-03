@@ -5,4 +5,4 @@ A basic fund me app, stated using blockhain on frontend . using html and js.
 
 # ctrl + shift + v
 
-# type `!` in .html file in vs code for bolier plate
+# type `!` in .html file in vs code for boiler plate
